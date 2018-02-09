@@ -18,7 +18,7 @@ import numpy as np
 
 batch_size = 128
 num_classes = len(thermal_images.Label)
-epochs = 12
+epochs = 100
 
 
 (x_train, y_train), (x_test, y_test) = thermal_images.load_data()
